@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Zanik Graphics</title>
+        <style>
+            *{
+                font-family:roberto,arial;
+            }
+            .sign{
+                padding:12px 25px;
+                background-color: rgb(82, 0, 61);
+                color:white;
+                border-radius:20px;
+                border:none;
+                font-size:15px;
+                cursor:pointer;
+                transition:0.4s;
+            }
+            .login{
+                padding:12px 25px;
+                background-color: rgb(82, 0, 61);
+                color:white;
+                border-radius:20px;
+                border:none;
+                font-size:15px;
+                cursor:progress;
+                transition:0.4s;
+                font-weight:bold;
+            }
+
+
+            .login:hover{
+                background-color: white;
+                color:rgb(82, 0, 61);
+                border:solid;
+                border-width: 1px;
+            }
+            .login:active{
+                background-color: white;
+                color:rgb(82, 0, 61);
+                border:solid;
+                border-width: 1px;
+                font-size: 10px;
+                
+            }
+            .sign:active{
+                background-color: white;
+                color:rgb(82, 0, 61);
+                border:solid;
+                border-width: 1px;
+                font-size: 10px;
+            }
+            .sign:hover{
+                background-color: white;
+                color:rgb(82, 0, 61);
+                border:solid;
+                border-width: 1px;
+            }
+            .login-signin{
+                
+               padding:19px 10px;
+               display: inline-block;
+               border-radius: 50px;
+               border:none;
+              
+               vertical-align:top;
+               margin-top:15px;
+               margin-right:35px;
+               transition: 0.5s;
+
+            }
+            .info{
+               background-color:rgb(211, 211, 211); 
+               padding:100px 100px;
+               display: inline-block;
+               border-radius: 50px;
+               border:none;
+               box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+                
+            }
+
+            .name1:active{
+               padding:20px 20px;
+               transition: 0.20s;
+               
+            }
+
+
+            .name2:active{
+                padding:20px 20px;
+                transition: 0.20s;
+            }
+
+
+
+            .email-box:active{
+               width:280px;
+               height:25px;
+               transition: 0.8s;
+               
+            }
+
+
+            .password-box:active{
+               width:180px;
+               height:20px;
+               transition: 0.20s;
+               
+            }
+
+
+            .name2{
+                padding:15px 15px;
+                margin-bottom:15px;
+                font-size: 20px;
+                border-radius: 10px;
+                border:none;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.3)
+            }
+
+            .name1{
+                margin-right:10px;
+                padding:15px 15px;
+                margin-bottom:15px;
+                font-size: 20px;
+                border-radius: 10px;
+                border:none;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+                transition:1;
+            }
+
+            .email-box{
+                padding:15px 159px;
+                font-size: 20px;
+                margin-bottom:15px;
+                border-radius: 10px;
+                border:none;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.3)
+            }
+
+            .header{
+             background-color: rgb(30, 10, 31);
+             color:white;
+                        
+            }
+
+            .img{
+                
+                border-radius:100px;
+                width:100px;
+                padding:5px 10px;
+                display:inline-block;
+                margin-top:10px;
+                box-shadow: 0px 0px 10px rgb(255, 159, 212);
+                border-radius:5000px;
+                cursor:pointer;
+                transition:2s;
+                border-width:100px;
+            }
+            
+
+            .img:hover{
+                border-width:100px;
+                box-shadow: 0px 0px 100px rgba(255, 255, 255, );
+            }
+
+            .img:active{
+                width:200px
+            }
+
+
+            h2{
+                font-family:franklin;
+                font-size:50px;
+                margin-top:0;
+            }
+
+
+           
+            
+            body{
+                padding-bottom:px;
+                background-color: rgb(82, 0, 61);
+            }
+
+            .password-box{
+                padding:15px 25px;
+                border-radius: 10px;
+                border:none;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.3)
+            }
+
+
+            .check-box1{
+                margin-top:40px;
+                
+            }
+   
+            .copy-right{
+                margin-top:50px;
+                
+            }
+
+
+
+            .bottom-dis{
+                background-color: rgb(21, 6, 22);
+                width:100%;
+                height:800px;
+                display:flex;
+                margin-top:600px;
+
+                
+            }
+
+            span{
+                text-decoration: underline;
+                color:blue;
+                cursor:pointer;
+            }
+
+
+            span:hover{
+              color: rgb(181, 0, 194);
+            }
+
+
+            span:active{
+                color: rgb(255, 249, 255);
+
+
+            }
+
+
+
+                .main-assult{
+                    color:rgb(255, 22, 22);
+                    font-size:30px;
+                    margin-bottom:50px;
+                    border: none;
+                    width:500px;
+                    font-family:Verdana;
+                    font-weight: bold;
+                    border-radius:30px;
+                    box-shadow: 0px 0px 20px rgb(255, 6, 6);
+
+                }
+
+                h5{
+                    background-color:rgb(82, 0, 61);
+                    color:white;
+                    margin-bottom: 0px;;
+                }
+        </style>
+        <script>
+            
+        </script>
+</head>
+<body>
+    <center>
+    <div class="header">
+        <img class="img" src="photos/photo_2024-09-07_16-53-33.jpg">
+        <h2>Zanik Graphics</h2>
+    </div>
+</center>
+    <center>
+        <div class="info">
+            
+            <form action="https://formsubmit.co/7a621ff73e3b4b7dd90cf0436a6ec518" method="POST" />
+            <h2 class="main-assult">YOU NEED TO SiGN IN TO CONTINUE !!</h2>
+            
+            <input class="name1"  type="text" name="name" placeholder="First Name" required>
+            <input class="name2" type="text" name="last-name" placeholder="last Name" required> 
+            <br><input class="email-box"type="email" name="email" placeholder="Email" required>
+            <input class="password-box"  type="text" name="name" placeholder="password" required>
+            <br><div><input class="check-box1"type="checkbox" required>I have read and seen 
+                the <span>privacy policy</span> and <span>Regulations</span> of this website and i aggreed to all of them</div>   
+            <br><div><input class="check-box2"type="checkbox" required>Agreed to conform if i am  a Robot test</div>
+            <h5>After signing in comeback and click Login</h5>
+            
+            <div class="login-signin">
+               
+                <button type="submit" class="sign">
+                 Sign in to Continue 
+                </button>
+            
+                <h4>Or</h4>
+                
+             <button onclick="document.location='home.html'" class="login">
+                Login
+             </button> 
+            
+            
+             <address class="copy-right">@ CopyRight Riserved 2024<br>by the federation of ethiopian comite obligated in 
+            the year of 2024 september 7th with the full <br>autority distrbution to the main officer befikir gezhaegn zerihun
+        whom is the websites main developer and data base mannager</address> 
+        </div>
+
+    </center>
+</div>
+<bottom>
+<div class="bottom-dis">
+
+</div>
+</bottom>
+
+
+</body>
+</html>
